@@ -194,6 +194,24 @@
   }
   @keyframes rise{ from{opacity:0; transform:translateY(18px);} to{opacity:1; transform:translateY(0);} }
 
+  .listen-btn{
+    display:inline-block;
+    margin-top:1.8rem;
+    padding:0.9rem 1.8rem;
+    font-family:'Space Mono', monospace;
+    font-size:0.8rem;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--bg);
+    background:var(--red);
+    border:1px solid var(--red);
+    text-decoration:none;
+    transition:background 0.3s, color 0.3s;
+    opacity:0;
+    animation: rise 1s ease forwards 1.3s;
+  }
+  .listen-btn:hover{ background:transparent; color:var(--red); }
+
   .scroll-cue{
     position:absolute;
     bottom:1.6rem; left:50%;
@@ -469,6 +487,7 @@
     <div class="eyebrow">Melodic Techno <em>/</em> Techno Peak Time</div>
     <h1>LUNR</h1>
     <p class="sub">A raver before anything else. Now building rooms that forget the outside world and move as one. Between Riyadh and Jeddah.</p>
+    <a href="https://on.soundcloud.com/wLGMpZOsCCQiESPUwL" target="_blank" rel="noopener" class="listen-btn">▶ Listen to a Set</a>
   </div>
   <div class="scroll-cue"></div>
 </section>
@@ -534,7 +553,7 @@
   <div class="eyebrow">Get In Touch</div>
   <h2>Let's <em>Connect</em></h2>
   <div class="links">
-    <a href="https://on.soundcloud.com/wLGMpZOsCCQiESPUwL" target="_blank" rel="noopener">SoundCloud — Full Catalog <span class="tag">SC</span></a>
+    <a href="https://on.soundcloud.com/wLGMpZOsCCQiESPUwL" target="_blank" rel="noopener" style="color:var(--red);font-weight:700;">SoundCloud — Listen to My Sets <span class="tag">SC</span></a>
     <a href="https://instagram.com/dj.lunr" target="_blank" rel="noopener">Instagram <span class="tag">IG</span></a>
     <a href="https://tiktok.com/@lunr68" target="_blank" rel="noopener">TikTok <span class="tag">TT</span></a>
     <a href="mailto:lunr.vibez@gmail.com">Booking &amp; Inquiries <span class="tag">@</span></a>
